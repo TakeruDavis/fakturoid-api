@@ -272,15 +272,15 @@ __Poznámka:__ Účet je pouze pro čtení, pro změny použijte prosím webové
 
 # Group Bank Accounts
 
-## Bankovní účty
+## Bankovní účty a pokladny
 
-__Poznámka:__ Bankovní účty jsou pouze pro čtení, pro změny použijte prosím webové rozhraní.
+__Poznámka:__ Bankovní účty a pokladny jsou pouze pro čtení, pro změny použijte prosím webové rozhraní.
 
 <table>
 <tr><th>Atribut</th><th>Popis</th><th>Detail</th></tr>
 <tr><td>id</td><td>identifikátor bankovního účtu</td><td>integer</td></tr>
 <tr><td>name</td><td>název účtu</td><td>string</td></tr>
-<tr><td>number</td><td>číslo účtu</td><td>string</td></tr>
+<tr><td>number</td><td>číslo účtu</td><td>string, optional, pokladny vrací null</td></tr>
 <tr><td>currency</td><td>měna</td><td>string</td></tr>
 <tr><td>iban</td><td>IBAN</td><td>string, optional</td></tr>
 <tr><td>swift_bic</td><td>BIC (pro SWIFT platby)</td><td>string, optional</td></tr>
